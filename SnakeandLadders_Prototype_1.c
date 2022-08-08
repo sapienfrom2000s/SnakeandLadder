@@ -97,11 +97,8 @@ void Turns(){
 		scanf("%d", &choose);
 		while((choose!=1) || (choose!=0)){
 
-			if(choose == 1)
-				break;
-
-			if(choose == 0)
-				break;
+			if((choose == 1) || (choose == 0 )) 
+                                                 break;
 
 			printf("Enter a valid input. Enter 1 or 0\n");
 			scanf("%d", &choose);
